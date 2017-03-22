@@ -7,11 +7,11 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import main.java.com.tanklab.entity.Link;
-import main.java.com.tanklab.entity.Qos;
-import main.java.com.tanklab.entity.Queue;
-import main.java.com.tanklab.entity.Topology;
-import main.java.com.tanklab.entity.dbutil.DBEntity;
+import com.tank.entity.Link;
+import com.tank.entity.Qos;
+import com.tank.entity.Queue;
+import com.tank.entity.Topology;
+import com.tank.entity.dbutil.DBEntity;
 import com.tank.entity.dbutil.DBNode;
 import com.tank.entity.dbutil.DBPort;
 

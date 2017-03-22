@@ -1,10 +1,9 @@
-/*
+package main.java.com.tanklab.main;
 
-
-import main.java.com.tanklab.entity.Topology;
-import main.java.com.tanklab.dbutil.DBEntity;
-import main.java.com.tanklab.entity.dbutil.DBNode;
-import main.java.com.tanklab.entity.dbutil.DBPort;
+import com.tank.entity.Topology;
+import com.tank.entity.dbutil.DBEntity;
+import com.tank.entity.dbutil.DBNode;
+import com.tank.entity.dbutil.DBPort;
 
 public class ClearManager {
 	
@@ -13,7 +12,6 @@ public class ClearManager {
 	 * @param dbEn
 	 * @describe del flows on path
 	 */
-/*
 	public static void delFlows(DBEntity dbEn){
 		String [] s = RestAPIManager.get("delFlows");
 		for(DBNode node : dbEn.nodes){
@@ -30,7 +28,6 @@ public class ClearManager {
 	 * @param dbEn
 	 * @describe del qos from point
 	 */
-/*
 	public static void delQosFromPoint(DBEntity dbEn){
 		String s[] = RestAPIManager.get("delQosFromPoint");
 		String data = "{\"network-topology:termination-point\": [{\"ovsdb:name\": \"{ovsdbName}\",\"tp-id\": \"{tp-id}\"}]}";
@@ -48,7 +45,6 @@ public class ClearManager {
 	 * @param dbEn
 	 * @describe del queue
 	 */
-/*
 	public static void delQueue(DBEntity dbEn){
 		String [] s = RestAPIManager.get("delQueue");
 		String ovsdbPort[] = RestAPIManager.get("ovsdbPort");
@@ -57,4 +53,3 @@ public class ClearManager {
 		}
 	}
 }
-*/

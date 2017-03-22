@@ -1,0 +1,701 @@
+[DEBUG][2017/03/22 17:09:17194][org.apache.ibatis.logging.LogFactory] 
+Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+ [DEBUG][2017/03/22 17:09:17257][org.apache.ibatis.datasource.pooled.PooledDataSource] 
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2017/03/22 17:09:17257][org.apache.ibatis.datasource.pooled.PooledDataSource] 
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2017/03/22 17:09:17257][org.apache.ibatis.datasource.pooled.PooledDataSource] 
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2017/03/22 17:09:17257][org.apache.ibatis.datasource.pooled.PooledDataSource] 
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2017/03/22 17:09:17342][org.apache.ibatis.transaction.jdbc.JdbcTransaction] 
+Opening JDBC Connection
+ [DEBUG][2017/03/22 17:09:17527][org.apache.ibatis.datasource.pooled.PooledDataSource] 
+Created connection 1061804750.
+ [DEBUG][2017/03/22 17:09:17527][org.apache.ibatis.transaction.jdbc.JdbcTransaction] 
+Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@3f49dace]
+ [DEBUG][2017/03/22 17:09:17527][main.java.com.tanklab.mybatis.orm.HostMapper.insert] 
+==>  Preparing: insert into host (type, host_id, mac_addr, ipv4_addr, con_sw_port_id) values (?, ?, ?, ?, ?) 
+ [DEBUG][2017/03/22 17:09:17558][main.java.com.tanklab.mybatis.orm.HostMapper.insert] 
+==> Parameters: host(String), 10(Integer), 11:11:11:11:11:11(String), 10.0.0.1(String), null
+ [DEBUG][2017/03/22 17:09:17558][main.java.com.tanklab.mybatis.orm.HostMapper.insert] 
+<==    Updates: 1
+ [DEBUG][2017/03/22 17:09:17558][main.java.com.tanklab.mybatis.orm.HostMapper.insert!selectKey] 
+==>  Preparing: SELECT LAST_INSERT_ID() 
+ [DEBUG][2017/03/22 17:09:17558][main.java.com.tanklab.mybatis.orm.HostMapper.insert!selectKey] 
+==> Parameters: 
+ [DEBUG][2017/03/22 17:09:17573][main.java.com.tanklab.mybatis.orm.HostMapper.insert!selectKey] 
+<==      Total: 1
+ [DEBUG][2017/03/22 17:10:19973][org.apache.ibatis.logging.LogFactory] 
+Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+ [DEBUG][2017/03/22 17:10:2036 ][org.apache.ibatis.datasource.pooled.PooledDataSource] 
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2017/03/22 17:10:2036 ][org.apache.ibatis.datasource.pooled.PooledDataSource] 
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2017/03/22 17:10:2036 ][org.apache.ibatis.datasource.pooled.PooledDataSource] 
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2017/03/22 17:10:2036 ][org.apache.ibatis.datasource.pooled.PooledDataSource] 
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2017/03/22 17:10:20120][org.apache.ibatis.transaction.jdbc.JdbcTransaction] 
+Opening JDBC Connection
+ [DEBUG][2017/03/22 17:10:20289][org.apache.ibatis.datasource.pooled.PooledDataSource] 
+Created connection 1061804750.
+ [DEBUG][2017/03/22 17:10:20289][org.apache.ibatis.transaction.jdbc.JdbcTransaction] 
+Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@3f49dace]
+ [DEBUG][2017/03/22 17:10:20305][main.java.com.tanklab.mybatis.orm.HostMapper.insert] 
+==>  Preparing: insert into host (type, host_id, mac_addr, ipv4_addr, con_sw_port_id) values (?, ?, ?, ?, ?) 
+ [DEBUG][2017/03/22 17:10:20320][main.java.com.tanklab.mybatis.orm.HostMapper.insert] 
+==> Parameters: host(String), 10(Integer), 11:11:11:11:11:11(String), 10.0.0.1(String), null
+ [DEBUG][2017/03/22 17:10:20320][main.java.com.tanklab.mybatis.orm.HostMapper.insert] 
+<==    Updates: 1
+ [DEBUG][2017/03/22 17:10:20320][main.java.com.tanklab.mybatis.orm.HostMapper.insert!selectKey] 
+==>  Preparing: SELECT LAST_INSERT_ID() 
+ [DEBUG][2017/03/22 17:10:20320][main.java.com.tanklab.mybatis.orm.HostMapper.insert!selectKey] 
+==> Parameters: 
+ [DEBUG][2017/03/22 17:10:20336][main.java.com.tanklab.mybatis.orm.HostMapper.insert!selectKey] 
+<==      Total: 1
+ [DEBUG][2017/03/22 17:12:03391][org.apache.ibatis.logging.LogFactory] 
+Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+ [DEBUG][2017/03/22 17:12:03450][org.apache.ibatis.datasource.pooled.PooledDataSource] 
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2017/03/22 17:12:03450][org.apache.ibatis.datasource.pooled.PooledDataSource] 
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2017/03/22 17:12:03450][org.apache.ibatis.datasource.pooled.PooledDataSource] 
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2017/03/22 17:12:03450][org.apache.ibatis.datasource.pooled.PooledDataSource] 
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2017/03/22 17:12:03533][org.apache.ibatis.transaction.jdbc.JdbcTransaction] 
+Opening JDBC Connection
+ [DEBUG][2017/03/22 17:12:03718][org.apache.ibatis.datasource.pooled.PooledDataSource] 
+Created connection 1061804750.
+ [DEBUG][2017/03/22 17:12:03718][org.apache.ibatis.transaction.jdbc.JdbcTransaction] 
+Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@3f49dace]
+ [DEBUG][2017/03/22 17:12:03718][main.java.com.tanklab.mybatis.orm.HostMapper.insert] 
+==>  Preparing: insert into host (type, host_id, mac_addr, ipv4_addr, con_sw_port_id) values (?, ?, ?, ?, ?) 
+ [DEBUG][2017/03/22 17:12:03750][main.java.com.tanklab.mybatis.orm.HostMapper.insert] 
+==> Parameters: host(String), 10(Integer), 11:11:11:11:11:11(String), 10.0.0.1(String), null
+ [DEBUG][2017/03/22 17:12:03750][main.java.com.tanklab.mybatis.orm.HostMapper.insert] 
+<==    Updates: 1
+ [DEBUG][2017/03/22 17:12:03750][main.java.com.tanklab.mybatis.orm.HostMapper.insert!selectKey] 
+==>  Preparing: SELECT LAST_INSERT_ID() 
+ [DEBUG][2017/03/22 17:12:03750][main.java.com.tanklab.mybatis.orm.HostMapper.insert!selectKey] 
+==> Parameters: 
+ [DEBUG][2017/03/22 17:12:03750][main.java.com.tanklab.mybatis.orm.HostMapper.insert!selectKey] 
+<==      Total: 1
+ [DEBUG][2017/03/22 17:14:051  ][org.apache.ibatis.logging.LogFactory] 
+Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+ [DEBUG][2017/03/22 17:14:0554 ][org.apache.ibatis.datasource.pooled.PooledDataSource] 
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2017/03/22 17:14:0554 ][org.apache.ibatis.datasource.pooled.PooledDataSource] 
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2017/03/22 17:14:0554 ][org.apache.ibatis.datasource.pooled.PooledDataSource] 
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2017/03/22 17:14:0554 ][org.apache.ibatis.datasource.pooled.PooledDataSource] 
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2017/03/22 17:14:05139][org.apache.ibatis.transaction.jdbc.JdbcTransaction] 
+Opening JDBC Connection
+ [DEBUG][2017/03/22 17:14:05323][org.apache.ibatis.datasource.pooled.PooledDataSource] 
+Created connection 1061804750.
+ [DEBUG][2017/03/22 17:14:05323][org.apache.ibatis.transaction.jdbc.JdbcTransaction] 
+Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@3f49dace]
+ [DEBUG][2017/03/22 17:14:05323][main.java.com.tanklab.mybatis.orm.HostMapper.insert] 
+==>  Preparing: insert into host (type, host_id, mac_addr, ipv4_addr, con_sw_port_id) values (?, ?, ?, ?, ?) 
+ [DEBUG][2017/03/22 17:14:05339][main.java.com.tanklab.mybatis.orm.HostMapper.insert] 
+==> Parameters: host(String), 10(Integer), 11:11:11:11:11:11(String), 10.0.0.1(String), null
+ [DEBUG][2017/03/22 17:14:05339][main.java.com.tanklab.mybatis.orm.HostMapper.insert] 
+<==    Updates: 1
+ [DEBUG][2017/03/22 17:14:05339][main.java.com.tanklab.mybatis.orm.HostMapper.insert!selectKey] 
+==>  Preparing: SELECT LAST_INSERT_ID() 
+ [DEBUG][2017/03/22 17:14:05339][main.java.com.tanklab.mybatis.orm.HostMapper.insert!selectKey] 
+==> Parameters: 
+ [DEBUG][2017/03/22 17:14:05354][main.java.com.tanklab.mybatis.orm.HostMapper.insert!selectKey] 
+<==      Total: 1
+ [DEBUG][2017/03/22 17:14:17265][org.apache.ibatis.logging.LogFactory] 
+Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+ [DEBUG][2017/03/22 17:14:17334][org.apache.ibatis.datasource.pooled.PooledDataSource] 
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2017/03/22 17:14:17334][org.apache.ibatis.datasource.pooled.PooledDataSource] 
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2017/03/22 17:14:17334][org.apache.ibatis.datasource.pooled.PooledDataSource] 
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2017/03/22 17:14:17334][org.apache.ibatis.datasource.pooled.PooledDataSource] 
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2017/03/22 17:14:17420][org.apache.ibatis.transaction.jdbc.JdbcTransaction] 
+Opening JDBC Connection
+ [DEBUG][2017/03/22 17:14:17596][org.apache.ibatis.datasource.pooled.PooledDataSource] 
+Created connection 1061804750.
+ [DEBUG][2017/03/22 17:14:17596][org.apache.ibatis.transaction.jdbc.JdbcTransaction] 
+Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@3f49dace]
+ [DEBUG][2017/03/22 17:14:17596][main.java.com.tanklab.mybatis.orm.HostMapper.insert] 
+==>  Preparing: insert into host (type, host_id, mac_addr, ipv4_addr, con_sw_port_id) values (?, ?, ?, ?, ?) 
+ [DEBUG][2017/03/22 17:14:17628][main.java.com.tanklab.mybatis.orm.HostMapper.insert] 
+==> Parameters: host(String), 10(Integer), 11:11:11:11:11:11(String), 10.0.0.1(String), null
+ [DEBUG][2017/03/22 17:14:17630][main.java.com.tanklab.mybatis.orm.HostMapper.insert] 
+<==    Updates: 1
+ [DEBUG][2017/03/22 17:14:17631][main.java.com.tanklab.mybatis.orm.HostMapper.insert!selectKey] 
+==>  Preparing: SELECT LAST_INSERT_ID() 
+ [DEBUG][2017/03/22 17:14:17632][main.java.com.tanklab.mybatis.orm.HostMapper.insert!selectKey] 
+==> Parameters: 
+ [DEBUG][2017/03/22 17:14:17633][main.java.com.tanklab.mybatis.orm.HostMapper.insert!selectKey] 
+<==      Total: 1
+ [DEBUG][2017/03/22 17:15:38288][org.apache.ibatis.logging.LogFactory] 
+Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+ [DEBUG][2017/03/22 17:15:38357][org.apache.ibatis.datasource.pooled.PooledDataSource] 
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2017/03/22 17:15:38357][org.apache.ibatis.datasource.pooled.PooledDataSource] 
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2017/03/22 17:15:38357][org.apache.ibatis.datasource.pooled.PooledDataSource] 
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2017/03/22 17:15:38357][org.apache.ibatis.datasource.pooled.PooledDataSource] 
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2017/03/22 17:15:38441][org.apache.ibatis.transaction.jdbc.JdbcTransaction] 
+Opening JDBC Connection
+ [DEBUG][2017/03/22 17:15:38625][org.apache.ibatis.datasource.pooled.PooledDataSource] 
+Created connection 1061804750.
+ [DEBUG][2017/03/22 17:15:38625][org.apache.ibatis.transaction.jdbc.JdbcTransaction] 
+Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@3f49dace]
+ [DEBUG][2017/03/22 17:15:38625][main.java.com.tanklab.mybatis.orm.HostMapper.insert] 
+==>  Preparing: insert into host (type, host_id, mac_addr, ipv4_addr, con_sw_port_id) values (?, ?, ?, ?, ?) 
+ [DEBUG][2017/03/22 17:15:38657][main.java.com.tanklab.mybatis.orm.HostMapper.insert] 
+==> Parameters: host(String), 10(Integer), 11:11:11:11:11:11(String), 10.0.0.1(String), null
+ [DEBUG][2017/03/22 17:15:38657][main.java.com.tanklab.mybatis.orm.HostMapper.insert] 
+<==    Updates: 1
+ [DEBUG][2017/03/22 17:15:38657][main.java.com.tanklab.mybatis.orm.HostMapper.insert!selectKey] 
+==>  Preparing: SELECT LAST_INSERT_ID() 
+ [DEBUG][2017/03/22 17:15:38657][main.java.com.tanklab.mybatis.orm.HostMapper.insert!selectKey] 
+==> Parameters: 
+ [DEBUG][2017/03/22 17:15:38672][main.java.com.tanklab.mybatis.orm.HostMapper.insert!selectKey] 
+<==      Total: 1
+ [DEBUG][2017/03/22 17:15:38672][org.apache.ibatis.transaction.jdbc.JdbcTransaction] 
+Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@3f49dace]
+ [DEBUG][2017/03/22 17:15:38756][org.apache.ibatis.transaction.jdbc.JdbcTransaction] 
+Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@3f49dace]
+ [DEBUG][2017/03/22 17:15:38756][org.apache.ibatis.transaction.jdbc.JdbcTransaction] 
+Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@3f49dace]
+ [DEBUG][2017/03/22 17:15:38756][org.apache.ibatis.datasource.pooled.PooledDataSource] 
+Returned connection 1061804750 to pool.
+ [DEBUG][2017/03/22 17:16:00563][org.apache.ibatis.logging.LogFactory] 
+Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+ [DEBUG][2017/03/22 17:16:00625][org.apache.ibatis.datasource.pooled.PooledDataSource] 
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2017/03/22 17:16:00625][org.apache.ibatis.datasource.pooled.PooledDataSource] 
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2017/03/22 17:16:00625][org.apache.ibatis.datasource.pooled.PooledDataSource] 
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2017/03/22 17:16:00625][org.apache.ibatis.datasource.pooled.PooledDataSource] 
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2017/03/22 17:16:00710][org.apache.ibatis.transaction.jdbc.JdbcTransaction] 
+Opening JDBC Connection
+ [DEBUG][2017/03/22 17:16:00894][org.apache.ibatis.datasource.pooled.PooledDataSource] 
+Created connection 1061804750.
+ [DEBUG][2017/03/22 17:16:00894][org.apache.ibatis.transaction.jdbc.JdbcTransaction] 
+Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@3f49dace]
+ [DEBUG][2017/03/22 17:16:00894][main.java.com.tanklab.mybatis.orm.HostMapper.insert] 
+==>  Preparing: insert into host (type, host_id, mac_addr, ipv4_addr, con_sw_port_id) values (?, ?, ?, ?, ?) 
+ [DEBUG][2017/03/22 17:16:00910][main.java.com.tanklab.mybatis.orm.HostMapper.insert] 
+==> Parameters: host(String), 10(Integer), 11:11:11:11:11:11(String), 10.0.0.1(String), null
+ [DEBUG][2017/03/22 17:16:00910][main.java.com.tanklab.mybatis.orm.HostMapper.insert] 
+<==    Updates: 1
+ [DEBUG][2017/03/22 17:16:00910][main.java.com.tanklab.mybatis.orm.HostMapper.insert!selectKey] 
+==>  Preparing: SELECT LAST_INSERT_ID() 
+ [DEBUG][2017/03/22 17:16:00910][main.java.com.tanklab.mybatis.orm.HostMapper.insert!selectKey] 
+==> Parameters: 
+ [DEBUG][2017/03/22 17:16:00926][main.java.com.tanklab.mybatis.orm.HostMapper.insert!selectKey] 
+<==      Total: 1
+ [DEBUG][2017/03/22 17:16:00926][org.apache.ibatis.transaction.jdbc.JdbcTransaction] 
+Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@3f49dace]
+ [DEBUG][2017/03/22 17:16:00978][org.apache.ibatis.transaction.jdbc.JdbcTransaction] 
+Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@3f49dace]
+ [DEBUG][2017/03/22 17:16:00978][org.apache.ibatis.transaction.jdbc.JdbcTransaction] 
+Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@3f49dace]
+ [DEBUG][2017/03/22 17:16:00978][org.apache.ibatis.datasource.pooled.PooledDataSource] 
+Returned connection 1061804750 to pool.
+ [DEBUG][2017/03/22 17:16:11357][org.apache.ibatis.logging.LogFactory] 
+Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+ [DEBUG][2017/03/22 17:16:11414][org.apache.ibatis.datasource.pooled.PooledDataSource] 
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2017/03/22 17:16:11430][org.apache.ibatis.datasource.pooled.PooledDataSource] 
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2017/03/22 17:16:11430][org.apache.ibatis.datasource.pooled.PooledDataSource] 
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2017/03/22 17:16:11430][org.apache.ibatis.datasource.pooled.PooledDataSource] 
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2017/03/22 17:16:11504][org.apache.ibatis.transaction.jdbc.JdbcTransaction] 
+Opening JDBC Connection
+ [DEBUG][2017/03/22 17:16:11689][org.apache.ibatis.datasource.pooled.PooledDataSource] 
+Created connection 1061804750.
+ [DEBUG][2017/03/22 17:16:11689][org.apache.ibatis.transaction.jdbc.JdbcTransaction] 
+Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@3f49dace]
+ [DEBUG][2017/03/22 17:16:11689][main.java.com.tanklab.mybatis.orm.HostMapper.insert] 
+==>  Preparing: insert into host (type, host_id, mac_addr, ipv4_addr, con_sw_port_id) values (?, ?, ?, ?, ?) 
+ [DEBUG][2017/03/22 17:16:11720][main.java.com.tanklab.mybatis.orm.HostMapper.insert] 
+==> Parameters: host(String), 10(Integer), 11:11:11:11:11:11(String), 10.0.0.1(String), null
+ [DEBUG][2017/03/22 17:16:11720][main.java.com.tanklab.mybatis.orm.HostMapper.insert] 
+<==    Updates: 1
+ [DEBUG][2017/03/22 17:16:11720][main.java.com.tanklab.mybatis.orm.HostMapper.insert!selectKey] 
+==>  Preparing: SELECT LAST_INSERT_ID() 
+ [DEBUG][2017/03/22 17:16:11720][main.java.com.tanklab.mybatis.orm.HostMapper.insert!selectKey] 
+==> Parameters: 
+ [DEBUG][2017/03/22 17:16:11720][main.java.com.tanklab.mybatis.orm.HostMapper.insert!selectKey] 
+<==      Total: 1
+ [DEBUG][2017/03/22 17:16:11720][org.apache.ibatis.transaction.jdbc.JdbcTransaction] 
+Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@3f49dace]
+ [DEBUG][2017/03/22 17:16:11835][org.apache.ibatis.transaction.jdbc.JdbcTransaction] 
+Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@3f49dace]
+ [DEBUG][2017/03/22 17:16:11835][org.apache.ibatis.transaction.jdbc.JdbcTransaction] 
+Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@3f49dace]
+ [DEBUG][2017/03/22 17:16:11835][org.apache.ibatis.datasource.pooled.PooledDataSource] 
+Returned connection 1061804750 to pool.
+ [DEBUG][2017/03/22 17:16:57646][org.apache.ibatis.logging.LogFactory] 
+Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+ [DEBUG][2017/03/22 17:16:57715][org.apache.ibatis.datasource.pooled.PooledDataSource] 
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2017/03/22 17:16:57715][org.apache.ibatis.datasource.pooled.PooledDataSource] 
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2017/03/22 17:16:57715][org.apache.ibatis.datasource.pooled.PooledDataSource] 
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2017/03/22 17:16:57715][org.apache.ibatis.datasource.pooled.PooledDataSource] 
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2017/03/22 17:16:57799][org.apache.ibatis.transaction.jdbc.JdbcTransaction] 
+Opening JDBC Connection
+ [DEBUG][2017/03/22 17:16:57984][org.apache.ibatis.datasource.pooled.PooledDataSource] 
+Created connection 1061804750.
+ [DEBUG][2017/03/22 17:16:57984][org.apache.ibatis.transaction.jdbc.JdbcTransaction] 
+Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@3f49dace]
+ [DEBUG][2017/03/22 17:16:57984][main.java.com.tanklab.mybatis.orm.HostMapper.insert] 
+==>  Preparing: insert into host (type, host_id, mac_addr, ipv4_addr, con_sw_port_id) values (?, ?, ?, ?, ?) 
+ [DEBUG][2017/03/22 17:16:57999][main.java.com.tanklab.mybatis.orm.HostMapper.insert] 
+==> Parameters: host(String), 10(Integer), 11:11:11:11:11:11(String), 10.0.0.1(String), null
+ [DEBUG][2017/03/22 17:16:5815 ][main.java.com.tanklab.mybatis.orm.HostMapper.insert] 
+<==    Updates: 1
+ [DEBUG][2017/03/22 17:16:5815 ][main.java.com.tanklab.mybatis.orm.HostMapper.insert!selectKey] 
+==>  Preparing: SELECT LAST_INSERT_ID() 
+ [DEBUG][2017/03/22 17:16:5815 ][main.java.com.tanklab.mybatis.orm.HostMapper.insert!selectKey] 
+==> Parameters: 
+ [DEBUG][2017/03/22 17:16:5815 ][main.java.com.tanklab.mybatis.orm.HostMapper.insert!selectKey] 
+<==      Total: 1
+ [DEBUG][2017/03/22 17:16:5815 ][org.apache.ibatis.transaction.jdbc.JdbcTransaction] 
+Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@3f49dace]
+ [DEBUG][2017/03/22 17:16:58131][org.apache.ibatis.transaction.jdbc.JdbcTransaction] 
+Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@3f49dace]
+ [DEBUG][2017/03/22 17:16:58131][org.apache.ibatis.transaction.jdbc.JdbcTransaction] 
+Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@3f49dace]
+ [DEBUG][2017/03/22 17:16:58131][org.apache.ibatis.datasource.pooled.PooledDataSource] 
+Returned connection 1061804750 to pool.
+ [DEBUG][2017/03/22 17:22:03211][org.apache.ibatis.logging.LogFactory] 
+Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+ [DEBUG][2017/03/22 17:22:03278][org.apache.ibatis.datasource.pooled.PooledDataSource] 
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2017/03/22 17:22:03279][org.apache.ibatis.datasource.pooled.PooledDataSource] 
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2017/03/22 17:22:03279][org.apache.ibatis.datasource.pooled.PooledDataSource] 
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2017/03/22 17:22:03280][org.apache.ibatis.datasource.pooled.PooledDataSource] 
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2017/03/22 17:22:03352][org.apache.ibatis.transaction.jdbc.JdbcTransaction] 
+Opening JDBC Connection
+ [DEBUG][2017/03/22 17:22:03539][org.apache.ibatis.datasource.pooled.PooledDataSource] 
+Created connection 1061804750.
+ [DEBUG][2017/03/22 17:22:03540][org.apache.ibatis.transaction.jdbc.JdbcTransaction] 
+Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@3f49dace]
+ [DEBUG][2017/03/22 17:22:03541][main.java.com.tanklab.mybatis.orm.HostMapper.insert] 
+==>  Preparing: insert into host (type, host_id, mac_addr, ipv4_addr, con_sw_port_id) values (?, ?, ?, ?, ?) 
+ [DEBUG][2017/03/22 17:22:03557][main.java.com.tanklab.mybatis.orm.HostMapper.insert] 
+==> Parameters: host(String), 10(Integer), 11:11:11:11:11:11(String), 10.0.0.1(String), null
+ [DEBUG][2017/03/22 17:22:03557][main.java.com.tanklab.mybatis.orm.HostMapper.insert] 
+<==    Updates: 1
+ [DEBUG][2017/03/22 17:22:03557][main.java.com.tanklab.mybatis.orm.HostMapper.insert!selectKey] 
+==>  Preparing: SELECT LAST_INSERT_ID() 
+ [DEBUG][2017/03/22 17:22:03557][main.java.com.tanklab.mybatis.orm.HostMapper.insert!selectKey] 
+==> Parameters: 
+ [DEBUG][2017/03/22 17:22:03573][main.java.com.tanklab.mybatis.orm.HostMapper.insert!selectKey] 
+<==      Total: 1
+ [DEBUG][2017/03/22 17:22:03573][org.apache.ibatis.transaction.jdbc.JdbcTransaction] 
+Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@3f49dace]
+ [DEBUG][2017/03/22 17:22:03605][org.apache.ibatis.transaction.jdbc.JdbcTransaction] 
+Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@3f49dace]
+ [DEBUG][2017/03/22 17:22:03605][org.apache.ibatis.transaction.jdbc.JdbcTransaction] 
+Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@3f49dace]
+ [DEBUG][2017/03/22 17:22:03605][org.apache.ibatis.datasource.pooled.PooledDataSource] 
+Returned connection 1061804750 to pool.
+ [DEBUG][2017/03/22 19:21:32178][org.apache.ibatis.logging.LogFactory] 
+Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+ [DEBUG][2017/03/22 19:21:32250][org.apache.ibatis.datasource.pooled.PooledDataSource] 
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2017/03/22 19:21:32252][org.apache.ibatis.datasource.pooled.PooledDataSource] 
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2017/03/22 19:21:32252][org.apache.ibatis.datasource.pooled.PooledDataSource] 
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2017/03/22 19:21:32252][org.apache.ibatis.datasource.pooled.PooledDataSource] 
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2017/03/22 19:21:32341][org.apache.ibatis.transaction.jdbc.JdbcTransaction] 
+Opening JDBC Connection
+ [DEBUG][2017/03/22 19:21:32537][org.apache.ibatis.datasource.pooled.PooledDataSource] 
+Created connection 101478235.
+ [DEBUG][2017/03/22 19:21:32537][org.apache.ibatis.transaction.jdbc.JdbcTransaction] 
+Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@60c6f5b]
+ [DEBUG][2017/03/22 19:21:32540][main.java.com.tanklab.mybatis.mapper.HostMapper.insert] 
+==>  Preparing: insert into host (type, host_id, mac_addr, ipv4_addr, con_sw_port_id) values (?, ?, ?, ?, ?) 
+ [DEBUG][2017/03/22 19:21:32562][main.java.com.tanklab.mybatis.mapper.HostMapper.insert] 
+==> Parameters: null, 10(String), 11:11:11:11:11:11(String), 10.0.0.1(String), null
+ [DEBUG][2017/03/22 19:21:32563][main.java.com.tanklab.mybatis.mapper.HostMapper.insert] 
+<==    Updates: 1
+ [DEBUG][2017/03/22 19:21:32565][main.java.com.tanklab.mybatis.mapper.HostMapper.insert!selectKey] 
+==>  Preparing: SELECT LAST_INSERT_ID() 
+ [DEBUG][2017/03/22 19:21:32565][main.java.com.tanklab.mybatis.mapper.HostMapper.insert!selectKey] 
+==> Parameters: 
+ [DEBUG][2017/03/22 19:21:32565][main.java.com.tanklab.mybatis.mapper.HostMapper.insert!selectKey] 
+<==      Total: 1
+ [DEBUG][2017/03/22 19:21:32565][org.apache.ibatis.transaction.jdbc.JdbcTransaction] 
+Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@60c6f5b]
+ [DEBUG][2017/03/22 19:21:32642][org.apache.ibatis.transaction.jdbc.JdbcTransaction] 
+Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@60c6f5b]
+ [DEBUG][2017/03/22 19:21:32644][org.apache.ibatis.transaction.jdbc.JdbcTransaction] 
+Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@60c6f5b]
+ [DEBUG][2017/03/22 19:21:32644][org.apache.ibatis.datasource.pooled.PooledDataSource] 
+Returned connection 101478235 to pool.
+ [DEBUG][2017/03/22 19:25:28566][org.apache.ibatis.logging.LogFactory] 
+Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+ [DEBUG][2017/03/22 19:25:28625][org.apache.ibatis.datasource.pooled.PooledDataSource] 
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2017/03/22 19:25:28625][org.apache.ibatis.datasource.pooled.PooledDataSource] 
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2017/03/22 19:25:28625][org.apache.ibatis.datasource.pooled.PooledDataSource] 
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2017/03/22 19:25:28625][org.apache.ibatis.datasource.pooled.PooledDataSource] 
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2017/03/22 19:25:28725][org.apache.ibatis.transaction.jdbc.JdbcTransaction] 
+Opening JDBC Connection
+ [DEBUG][2017/03/22 19:25:28904][org.apache.ibatis.datasource.pooled.PooledDataSource] 
+Created connection 101478235.
+ [DEBUG][2017/03/22 19:25:28904][org.apache.ibatis.transaction.jdbc.JdbcTransaction] 
+Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@60c6f5b]
+ [DEBUG][2017/03/22 19:25:28904][main.java.com.tanklab.mybatis.mapper.HostMapper.insert] 
+==>  Preparing: insert into host (type, host_id, mac_addr, ipv4_addr, con_sw_port_id) values (?, ?, ?, ?, ?) 
+ [DEBUG][2017/03/22 19:25:28925][main.java.com.tanklab.mybatis.mapper.HostMapper.insert] 
+==> Parameters: null, 10(String), 11:11:11:11:11:11(String), 10.0.0.1(String), null
+ [DEBUG][2017/03/22 19:25:28925][main.java.com.tanklab.mybatis.mapper.HostMapper.insert] 
+<==    Updates: 1
+ [DEBUG][2017/03/22 19:25:28925][main.java.com.tanklab.mybatis.mapper.HostMapper.insert!selectKey] 
+==>  Preparing: SELECT LAST_INSERT_ID() 
+ [DEBUG][2017/03/22 19:25:28925][main.java.com.tanklab.mybatis.mapper.HostMapper.insert!selectKey] 
+==> Parameters: 
+ [DEBUG][2017/03/22 19:25:28941][main.java.com.tanklab.mybatis.mapper.HostMapper.insert!selectKey] 
+<==      Total: 1
+ [DEBUG][2017/03/22 19:25:28941][org.apache.ibatis.transaction.jdbc.JdbcTransaction] 
+Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@60c6f5b]
+ [DEBUG][2017/03/22 19:25:2989 ][org.apache.ibatis.transaction.jdbc.JdbcTransaction] 
+Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@60c6f5b]
+ [DEBUG][2017/03/22 19:25:2989 ][org.apache.ibatis.transaction.jdbc.JdbcTransaction] 
+Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@60c6f5b]
+ [DEBUG][2017/03/22 19:25:29105][org.apache.ibatis.datasource.pooled.PooledDataSource] 
+Returned connection 101478235 to pool.
+ [DEBUG][2017/03/22 19:26:35657][org.apache.ibatis.logging.LogFactory] 
+Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+ [DEBUG][2017/03/22 19:26:35726][org.apache.ibatis.datasource.pooled.PooledDataSource] 
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2017/03/22 19:26:35726][org.apache.ibatis.datasource.pooled.PooledDataSource] 
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2017/03/22 19:26:35726][org.apache.ibatis.datasource.pooled.PooledDataSource] 
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2017/03/22 19:26:35726][org.apache.ibatis.datasource.pooled.PooledDataSource] 
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2017/03/22 19:26:35826][org.apache.ibatis.transaction.jdbc.JdbcTransaction] 
+Opening JDBC Connection
+ [DEBUG][2017/03/22 19:26:3611 ][org.apache.ibatis.datasource.pooled.PooledDataSource] 
+Created connection 101478235.
+ [DEBUG][2017/03/22 19:26:3612 ][org.apache.ibatis.transaction.jdbc.JdbcTransaction] 
+Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@60c6f5b]
+ [DEBUG][2017/03/22 19:26:3614 ][main.java.com.tanklab.mybatis.mapper.HostMapper.insert] 
+==>  Preparing: insert into host (type, host_id, mac_addr, ipv4_addr, con_sw_port_id) values (?, ?, ?, ?, ?) 
+ [DEBUG][2017/03/22 19:26:3628 ][main.java.com.tanklab.mybatis.mapper.HostMapper.insert] 
+==> Parameters: null, 10(String), 11:11:11:11:11:11(String), 10.0.0.1(String), null
+ [DEBUG][2017/03/22 19:26:3628 ][main.java.com.tanklab.mybatis.mapper.HostMapper.insert] 
+<==    Updates: 1
+ [DEBUG][2017/03/22 19:26:3628 ][main.java.com.tanklab.mybatis.mapper.HostMapper.insert!selectKey] 
+==>  Preparing: SELECT LAST_INSERT_ID() 
+ [DEBUG][2017/03/22 19:26:3628 ][main.java.com.tanklab.mybatis.mapper.HostMapper.insert!selectKey] 
+==> Parameters: 
+ [DEBUG][2017/03/22 19:26:3643 ][main.java.com.tanklab.mybatis.mapper.HostMapper.insert!selectKey] 
+<==      Total: 1
+ [DEBUG][2017/03/22 19:26:3643 ][org.apache.ibatis.transaction.jdbc.JdbcTransaction] 
+Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@60c6f5b]
+ [DEBUG][2017/03/22 19:26:3696 ][org.apache.ibatis.transaction.jdbc.JdbcTransaction] 
+Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@60c6f5b]
+ [DEBUG][2017/03/22 19:26:3698 ][org.apache.ibatis.transaction.jdbc.JdbcTransaction] 
+Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@60c6f5b]
+ [DEBUG][2017/03/22 19:26:3698 ][org.apache.ibatis.datasource.pooled.PooledDataSource] 
+Returned connection 101478235 to pool.
+ [DEBUG][2017/03/22 19:29:14463][org.apache.ibatis.logging.LogFactory] 
+Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+ [DEBUG][2017/03/22 19:29:14540][org.apache.ibatis.datasource.pooled.PooledDataSource] 
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2017/03/22 19:29:14542][org.apache.ibatis.datasource.pooled.PooledDataSource] 
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2017/03/22 19:29:14542][org.apache.ibatis.datasource.pooled.PooledDataSource] 
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2017/03/22 19:29:14542][org.apache.ibatis.datasource.pooled.PooledDataSource] 
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2017/03/22 19:29:14633][org.apache.ibatis.transaction.jdbc.JdbcTransaction] 
+Opening JDBC Connection
+ [DEBUG][2017/03/22 19:29:14811][org.apache.ibatis.datasource.pooled.PooledDataSource] 
+Created connection 101478235.
+ [DEBUG][2017/03/22 19:29:14811][org.apache.ibatis.transaction.jdbc.JdbcTransaction] 
+Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@60c6f5b]
+ [DEBUG][2017/03/22 19:29:14811][main.java.com.tanklab.mybatis.mapper.NodeMapper.insert] 
+==>  Preparing: insert into node (type, datapath_id, swithchName, odlNodeRef) values (?, ?, ?, ?) 
+ [DEBUG][2017/03/22 19:29:14833][main.java.com.tanklab.mybatis.mapper.NodeMapper.insert] 
+==> Parameters: null, 00000000:1(String), null, null
+ [DEBUG][2017/03/22 19:29:14833][main.java.com.tanklab.mybatis.mapper.NodeMapper.insert] 
+<==    Updates: 1
+ [DEBUG][2017/03/22 19:29:14833][main.java.com.tanklab.mybatis.mapper.NodeMapper.insert!selectKey] 
+==>  Preparing: SELECT LAST_INSERT_ID() 
+ [DEBUG][2017/03/22 19:29:14833][main.java.com.tanklab.mybatis.mapper.NodeMapper.insert!selectKey] 
+==> Parameters: 
+ [DEBUG][2017/03/22 19:29:14849][main.java.com.tanklab.mybatis.mapper.NodeMapper.insert!selectKey] 
+<==      Total: 1
+ [DEBUG][2017/03/22 19:29:14849][org.apache.ibatis.transaction.jdbc.JdbcTransaction] 
+Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@60c6f5b]
+ [DEBUG][2017/03/22 19:29:14896][org.apache.ibatis.transaction.jdbc.JdbcTransaction] 
+Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@60c6f5b]
+ [DEBUG][2017/03/22 19:29:14896][org.apache.ibatis.transaction.jdbc.JdbcTransaction] 
+Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@60c6f5b]
+ [DEBUG][2017/03/22 19:29:14896][org.apache.ibatis.datasource.pooled.PooledDataSource] 
+Returned connection 101478235 to pool.
+ [DEBUG][2017/03/22 19:29:53573][org.apache.ibatis.logging.LogFactory] 
+Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+ [DEBUG][2017/03/22 19:29:53634][org.apache.ibatis.datasource.pooled.PooledDataSource] 
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2017/03/22 19:29:53636][org.apache.ibatis.datasource.pooled.PooledDataSource] 
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2017/03/22 19:29:53636][org.apache.ibatis.datasource.pooled.PooledDataSource] 
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2017/03/22 19:29:53636][org.apache.ibatis.datasource.pooled.PooledDataSource] 
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2017/03/22 19:29:53738][org.apache.ibatis.transaction.jdbc.JdbcTransaction] 
+Opening JDBC Connection
+ [DEBUG][2017/03/22 19:29:53921][org.apache.ibatis.datasource.pooled.PooledDataSource] 
+Created connection 101478235.
+ [DEBUG][2017/03/22 19:29:53921][org.apache.ibatis.transaction.jdbc.JdbcTransaction] 
+Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@60c6f5b]
+ [DEBUG][2017/03/22 19:29:53923][main.java.com.tanklab.mybatis.mapper.NodeMapper.insert] 
+==>  Preparing: insert into node (type, datapath_id, swithchName, odlNodeRef) values (?, ?, ?, ?) 
+ [DEBUG][2017/03/22 19:29:53946][main.java.com.tanklab.mybatis.mapper.NodeMapper.insert] 
+==> Parameters: null, 00000000:1(String), null, null
+ [DEBUG][2017/03/22 19:29:53947][main.java.com.tanklab.mybatis.mapper.NodeMapper.insert] 
+<==    Updates: 1
+ [DEBUG][2017/03/22 19:29:53948][main.java.com.tanklab.mybatis.mapper.NodeMapper.insert!selectKey] 
+==>  Preparing: SELECT LAST_INSERT_ID() 
+ [DEBUG][2017/03/22 19:29:53949][main.java.com.tanklab.mybatis.mapper.NodeMapper.insert!selectKey] 
+==> Parameters: 
+ [DEBUG][2017/03/22 19:29:53959][main.java.com.tanklab.mybatis.mapper.NodeMapper.insert!selectKey] 
+<==      Total: 1
+ [DEBUG][2017/03/22 19:29:53959][org.apache.ibatis.transaction.jdbc.JdbcTransaction] 
+Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@60c6f5b]
+ [DEBUG][2017/03/22 19:29:548  ][org.apache.ibatis.transaction.jdbc.JdbcTransaction] 
+Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@60c6f5b]
+ [DEBUG][2017/03/22 19:29:549  ][org.apache.ibatis.transaction.jdbc.JdbcTransaction] 
+Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@60c6f5b]
+ [DEBUG][2017/03/22 19:29:5410 ][org.apache.ibatis.datasource.pooled.PooledDataSource] 
+Returned connection 101478235 to pool.
+ [DEBUG][2017/03/22 19:30:57194][org.apache.ibatis.logging.LogFactory] 
+Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+ [DEBUG][2017/03/22 19:30:57261][org.apache.ibatis.datasource.pooled.PooledDataSource] 
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2017/03/22 19:30:57262][org.apache.ibatis.datasource.pooled.PooledDataSource] 
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2017/03/22 19:30:57263][org.apache.ibatis.datasource.pooled.PooledDataSource] 
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2017/03/22 19:30:57263][org.apache.ibatis.datasource.pooled.PooledDataSource] 
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2017/03/22 19:30:57368][org.apache.ibatis.transaction.jdbc.JdbcTransaction] 
+Opening JDBC Connection
+ [DEBUG][2017/03/22 19:30:57561][org.apache.ibatis.datasource.pooled.PooledDataSource] 
+Created connection 101478235.
+ [DEBUG][2017/03/22 19:30:57562][org.apache.ibatis.transaction.jdbc.JdbcTransaction] 
+Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@60c6f5b]
+ [DEBUG][2017/03/22 19:30:57563][main.java.com.tanklab.mybatis.mapper.NodeMapper.insert] 
+==>  Preparing: insert into node (type, datapath_id, swithchName, odlNodeRef) values (?, ?, ?, ?) 
+ [DEBUG][2017/03/22 19:30:57585][main.java.com.tanklab.mybatis.mapper.NodeMapper.insert] 
+==> Parameters: null, 00000000:1(String), null, null
+ [DEBUG][2017/03/22 19:30:57586][main.java.com.tanklab.mybatis.mapper.NodeMapper.insert] 
+<==    Updates: 1
+ [DEBUG][2017/03/22 19:30:57587][main.java.com.tanklab.mybatis.mapper.NodeMapper.insert!selectKey] 
+==>  Preparing: SELECT LAST_INSERT_ID() 
+ [DEBUG][2017/03/22 19:30:57588][main.java.com.tanklab.mybatis.mapper.NodeMapper.insert!selectKey] 
+==> Parameters: 
+ [DEBUG][2017/03/22 19:30:57597][main.java.com.tanklab.mybatis.mapper.NodeMapper.insert!selectKey] 
+<==      Total: 1
+ [DEBUG][2017/03/22 19:30:57597][org.apache.ibatis.transaction.jdbc.JdbcTransaction] 
+Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@60c6f5b]
+ [DEBUG][2017/03/22 19:30:57649][main.java.com.tanklab.mybatis.mapper.HostMapper.insert] 
+==>  Preparing: insert into host (type, host_id, mac_addr, ipv4_addr, con_sw_port_id) values (?, ?, ?, ?, ?) 
+ [DEBUG][2017/03/22 19:30:57654][main.java.com.tanklab.mybatis.mapper.HostMapper.insert] 
+==> Parameters: null, 10(String), 11:11:11:11:11:11(String), 10.0.0.2(String), null
+ [DEBUG][2017/03/22 19:30:57656][main.java.com.tanklab.mybatis.mapper.HostMapper.insert] 
+<==    Updates: 1
+ [DEBUG][2017/03/22 19:30:57658][main.java.com.tanklab.mybatis.mapper.HostMapper.insert!selectKey] 
+==>  Preparing: SELECT LAST_INSERT_ID() 
+ [DEBUG][2017/03/22 19:30:57659][main.java.com.tanklab.mybatis.mapper.HostMapper.insert!selectKey] 
+==> Parameters: 
+ [DEBUG][2017/03/22 19:30:57661][main.java.com.tanklab.mybatis.mapper.HostMapper.insert!selectKey] 
+<==      Total: 1
+ [DEBUG][2017/03/22 19:30:57662][org.apache.ibatis.transaction.jdbc.JdbcTransaction] 
+Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@60c6f5b]
+ [DEBUG][2017/03/22 19:30:57748][org.apache.ibatis.transaction.jdbc.JdbcTransaction] 
+Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@60c6f5b]
+ [DEBUG][2017/03/22 19:30:57749][org.apache.ibatis.transaction.jdbc.JdbcTransaction] 
+Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@60c6f5b]
+ [DEBUG][2017/03/22 19:30:57750][org.apache.ibatis.datasource.pooled.PooledDataSource] 
+Returned connection 101478235 to pool.
+ [DEBUG][2017/03/22 19:36:20225][org.apache.ibatis.logging.LogFactory] 
+Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+ [DEBUG][2017/03/22 19:36:20293][org.apache.ibatis.datasource.pooled.PooledDataSource] 
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2017/03/22 19:36:20294][org.apache.ibatis.datasource.pooled.PooledDataSource] 
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2017/03/22 19:36:20295][org.apache.ibatis.datasource.pooled.PooledDataSource] 
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2017/03/22 19:36:20295][org.apache.ibatis.datasource.pooled.PooledDataSource] 
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2017/03/22 19:36:20402][org.apache.ibatis.transaction.jdbc.JdbcTransaction] 
+Opening JDBC Connection
+ [DEBUG][2017/03/22 19:36:20600][org.apache.ibatis.datasource.pooled.PooledDataSource] 
+Created connection 540585569.
+ [DEBUG][2017/03/22 19:36:20600][org.apache.ibatis.transaction.jdbc.JdbcTransaction] 
+Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@2038ae61]
+ [DEBUG][2017/03/22 19:36:20602][main.java.com.tanklab.mybatis.mapper.NodeMapper.insert] 
+==>  Preparing: insert into node (type, datapath_id, swithchName, odlNodeRef) values (?, ?, ?, ?) 
+ [DEBUG][2017/03/22 19:36:20628][main.java.com.tanklab.mybatis.mapper.NodeMapper.insert] 
+==> Parameters: null, 00000000:1(String), null, null
+ [DEBUG][2017/03/22 19:36:20629][main.java.com.tanklab.mybatis.mapper.NodeMapper.insert] 
+<==    Updates: 1
+ [DEBUG][2017/03/22 19:36:20631][main.java.com.tanklab.mybatis.mapper.NodeMapper.insert!selectKey] 
+==>  Preparing: SELECT LAST_INSERT_ID() 
+ [DEBUG][2017/03/22 19:36:20631][main.java.com.tanklab.mybatis.mapper.NodeMapper.insert!selectKey] 
+==> Parameters: 
+ [DEBUG][2017/03/22 19:36:20642][main.java.com.tanklab.mybatis.mapper.NodeMapper.insert!selectKey] 
+<==      Total: 1
+ [DEBUG][2017/03/22 19:36:20643][org.apache.ibatis.transaction.jdbc.JdbcTransaction] 
+Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@2038ae61]
+ [DEBUG][2017/03/22 19:36:20697][main.java.com.tanklab.mybatis.mapper.HostMapper.insert] 
+==>  Preparing: insert into host (type, host_id, mac_addr, ipv4_addr, con_sw_port_id) values (?, ?, ?, ?, ?) 
+ [DEBUG][2017/03/22 19:36:20705][main.java.com.tanklab.mybatis.mapper.HostMapper.insert] 
+==> Parameters: null, 10(String), 11:11:11:11:11:11(String), 10.0.0.2(String), null
+ [DEBUG][2017/03/22 19:36:20709][main.java.com.tanklab.mybatis.mapper.HostMapper.insert] 
+<==    Updates: 1
+ [DEBUG][2017/03/22 19:36:20710][main.java.com.tanklab.mybatis.mapper.HostMapper.insert!selectKey] 
+==>  Preparing: SELECT LAST_INSERT_ID() 
+ [DEBUG][2017/03/22 19:36:20711][main.java.com.tanklab.mybatis.mapper.HostMapper.insert!selectKey] 
+==> Parameters: 
+ [DEBUG][2017/03/22 19:36:20713][main.java.com.tanklab.mybatis.mapper.HostMapper.insert!selectKey] 
+<==      Total: 1
+ [DEBUG][2017/03/22 19:36:20714][org.apache.ibatis.transaction.jdbc.JdbcTransaction] 
+Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@2038ae61]
+ [DEBUG][2017/03/22 19:36:20748][org.apache.ibatis.transaction.jdbc.JdbcTransaction] 
+Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@2038ae61]
+ [DEBUG][2017/03/22 19:36:20748][org.apache.ibatis.transaction.jdbc.JdbcTransaction] 
+Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@2038ae61]
+ [DEBUG][2017/03/22 19:36:20749][org.apache.ibatis.datasource.pooled.PooledDataSource] 
+Returned connection 540585569 to pool.
+ [DEBUG][2017/03/22 19:43:40718][org.apache.ibatis.logging.LogFactory] 
+Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+ [DEBUG][2017/03/22 19:43:40787][org.apache.ibatis.datasource.pooled.PooledDataSource] 
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2017/03/22 19:43:40787][org.apache.ibatis.datasource.pooled.PooledDataSource] 
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2017/03/22 19:43:40787][org.apache.ibatis.datasource.pooled.PooledDataSource] 
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2017/03/22 19:43:40787][org.apache.ibatis.datasource.pooled.PooledDataSource] 
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2017/03/22 19:43:40887][org.apache.ibatis.transaction.jdbc.JdbcTransaction] 
+Opening JDBC Connection
+ [DEBUG][2017/03/22 19:43:4172 ][org.apache.ibatis.datasource.pooled.PooledDataSource] 
+Created connection 101478235.
+ [DEBUG][2017/03/22 19:43:4172 ][org.apache.ibatis.transaction.jdbc.JdbcTransaction] 
+Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@60c6f5b]
+ [DEBUG][2017/03/22 19:43:4172 ][main.java.com.tanklab.mybatis.mapper.NodeMapper.insert] 
+==>  Preparing: insert into node (type, datapath_id, swithchName, odlNodeRef) values (?, ?, ?, ?) 
+ [DEBUG][2017/03/22 19:43:4188 ][main.java.com.tanklab.mybatis.mapper.NodeMapper.insert] 
+==> Parameters: null, 00000000:1(String), null, null
+ [DEBUG][2017/03/22 19:43:4188 ][main.java.com.tanklab.mybatis.mapper.NodeMapper.insert] 
+<==    Updates: 1
+ [DEBUG][2017/03/22 19:43:4188 ][main.java.com.tanklab.mybatis.mapper.NodeMapper.insert!selectKey] 
+==>  Preparing: SELECT LAST_INSERT_ID() 
+ [DEBUG][2017/03/22 19:43:4188 ][main.java.com.tanklab.mybatis.mapper.NodeMapper.insert!selectKey] 
+==> Parameters: 
+ [DEBUG][2017/03/22 19:43:41104][main.java.com.tanklab.mybatis.mapper.NodeMapper.insert!selectKey] 
+<==      Total: 1
+ [DEBUG][2017/03/22 19:43:41104][org.apache.ibatis.transaction.jdbc.JdbcTransaction] 
+Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@60c6f5b]
+ [DEBUG][2017/03/22 19:43:41188][main.java.com.tanklab.mybatis.mapper.HostMapper.insert] 
+==>  Preparing: insert into host (type, host_id, mac_addr, ipv4_addr, con_sw_port_id) values (?, ?, ?, ?, ?) 
+ [DEBUG][2017/03/22 19:43:41188][main.java.com.tanklab.mybatis.mapper.HostMapper.insert] 
+==> Parameters: null, 10(String), 11:11:11:11:11:11(String), 10.0.0.2(String), null
+ [DEBUG][2017/03/22 19:43:41188][main.java.com.tanklab.mybatis.mapper.HostMapper.insert] 
+<==    Updates: 1
+ [DEBUG][2017/03/22 19:43:41188][main.java.com.tanklab.mybatis.mapper.HostMapper.insert!selectKey] 
+==>  Preparing: SELECT LAST_INSERT_ID() 
+ [DEBUG][2017/03/22 19:43:41204][main.java.com.tanklab.mybatis.mapper.HostMapper.insert!selectKey] 
+==> Parameters: 
+ [DEBUG][2017/03/22 19:43:41204][main.java.com.tanklab.mybatis.mapper.HostMapper.insert!selectKey] 
+<==      Total: 1
+ [DEBUG][2017/03/22 19:43:41204][org.apache.ibatis.transaction.jdbc.JdbcTransaction] 
+Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@60c6f5b]
+ [DEBUG][2017/03/22 19:43:41257][org.apache.ibatis.transaction.jdbc.JdbcTransaction] 
+Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@60c6f5b]
+ [DEBUG][2017/03/22 19:43:41257][org.apache.ibatis.transaction.jdbc.JdbcTransaction] 
+Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@60c6f5b]
+ [DEBUG][2017/03/22 19:43:41257][org.apache.ibatis.datasource.pooled.PooledDataSource] 
+Returned connection 101478235 to pool.
+ [DEBUG][2017/03/22 19:49:56233][org.apache.ibatis.logging.LogFactory] 
+Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+ [DEBUG][2017/03/22 19:49:56315][org.apache.ibatis.datasource.pooled.PooledDataSource] 
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2017/03/22 19:49:56317][org.apache.ibatis.datasource.pooled.PooledDataSource] 
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2017/03/22 19:49:56317][org.apache.ibatis.datasource.pooled.PooledDataSource] 
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2017/03/22 19:49:56317][org.apache.ibatis.datasource.pooled.PooledDataSource] 
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2017/03/22 19:49:56415][org.apache.ibatis.transaction.jdbc.JdbcTransaction] 
+Opening JDBC Connection
+ [DEBUG][2017/03/22 19:49:56602][org.apache.ibatis.datasource.pooled.PooledDataSource] 
+Created connection 101478235.
+ [DEBUG][2017/03/22 19:49:56602][org.apache.ibatis.transaction.jdbc.JdbcTransaction] 
+Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@60c6f5b]
+ [DEBUG][2017/03/22 19:49:56602][main.java.com.tanklab.mybatis.mapper.NodeMapper.insert] 
+==>  Preparing: insert into node (type, datapath_id, swithchName, odlNodeRef) values (?, ?, ?, ?) 
+ [DEBUG][2017/03/22 19:49:56633][main.java.com.tanklab.mybatis.mapper.NodeMapper.insert] 
+==> Parameters: null, 00000000:2(String), null, null
+ [DEBUG][2017/03/22 19:49:56633][main.java.com.tanklab.mybatis.mapper.NodeMapper.insert] 
+<==    Updates: 1
+ [DEBUG][2017/03/22 19:49:56633][main.java.com.tanklab.mybatis.mapper.NodeMapper.insert!selectKey] 
+==>  Preparing: SELECT LAST_INSERT_ID() 
+ [DEBUG][2017/03/22 19:49:56633][main.java.com.tanklab.mybatis.mapper.NodeMapper.insert!selectKey] 
+==> Parameters: 
+ [DEBUG][2017/03/22 19:49:56633][main.java.com.tanklab.mybatis.mapper.NodeMapper.insert!selectKey] 
+<==      Total: 1
+ [DEBUG][2017/03/22 19:49:56649][org.apache.ibatis.transaction.jdbc.JdbcTransaction] 
+Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@60c6f5b]
+ [DEBUG][2017/03/22 19:49:56717][main.java.com.tanklab.mybatis.mapper.HostMapper.insert] 
+==>  Preparing: insert into host (type, host_id, mac_addr, ipv4_addr, con_sw_port_id) values (?, ?, ?, ?, ?) 
+ [DEBUG][2017/03/22 19:49:56717][main.java.com.tanklab.mybatis.mapper.HostMapper.insert] 
+==> Parameters: null, 10(String), 11:11:11:11:11:11(String), 10.0.0.6(String), null
+ [DEBUG][2017/03/22 19:49:56717][main.java.com.tanklab.mybatis.mapper.HostMapper.insert] 
+<==    Updates: 1
+ [DEBUG][2017/03/22 19:49:56733][main.java.com.tanklab.mybatis.mapper.HostMapper.insert!selectKey] 
+==>  Preparing: SELECT LAST_INSERT_ID() 
+ [DEBUG][2017/03/22 19:49:56733][main.java.com.tanklab.mybatis.mapper.HostMapper.insert!selectKey] 
+==> Parameters: 
+ [DEBUG][2017/03/22 19:49:56733][main.java.com.tanklab.mybatis.mapper.HostMapper.insert!selectKey] 
+<==      Total: 1
+ [DEBUG][2017/03/22 19:49:56733][org.apache.ibatis.transaction.jdbc.JdbcTransaction] 
+Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@60c6f5b]
+ [DEBUG][2017/03/22 19:49:56764][org.apache.ibatis.transaction.jdbc.JdbcTransaction] 
+Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@60c6f5b]
+ [DEBUG][2017/03/22 19:49:56764][org.apache.ibatis.transaction.jdbc.JdbcTransaction] 
+Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@60c6f5b]
+ [DEBUG][2017/03/22 19:49:56764][org.apache.ibatis.datasource.pooled.PooledDataSource] 
+Returned connection 101478235 to pool.
+ 

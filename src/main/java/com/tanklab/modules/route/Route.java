@@ -1,4 +1,4 @@
-/*
+
 package main.java.com.tanklab.modules.route;
 
 import java.util.List;
@@ -15,4 +15,3 @@ public class Route {
 		
 	}
 }
-*/

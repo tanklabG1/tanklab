@@ -19,6 +19,8 @@
 		<!--直接映射到相应的mapper文件-->
 		<!-- <mapper resource="com/xhm/mapper/UserMapper.xml"/> -->
 		<!--扫描包路径下所有xxMapper.xml文件-->
-		<package name="main.java.com.tanklab.mybatis.mapper"/>
+		<mapper resource="main/java/com/tanklab/mybatis/mapper/HostMapper.xml" />
+		<mapper resource="main/java/com/tanklab/mybatis/mapper/NodeMapper.xml" />
+		<!-- <package name="main.java.com.tanklab.mybatis.mapper"/> -->
     </mappers>    
 </configuration>  

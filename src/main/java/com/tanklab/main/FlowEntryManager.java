@@ -4,11 +4,11 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
-import main.java.com.tanklab.entity.FlowEntry;
-import main.java.com.tanklab.entity.Link;
-import main.java.com.tanklab.entity.Queue;
-import main.java.com.tanklab.entity.Topology;
-//import main.java.com.tanklab.dbutil.DBEntity;
+import com.tank.entity.FlowEntry;
+import com.tank.entity.Link;
+import com.tank.entity.Queue;
+import com.tank.entity.Topology;
+import com.tank.entity.dbutil.DBEntity;
 
 /**
  * 

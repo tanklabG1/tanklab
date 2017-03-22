@@ -1,76 +1,65 @@
 package main.java.com.tanklab.entity;
 
-import java.util.ArrayList;
-import java.util.List;
+public class Node extends NE {
 
-/**
- * 
- * @author CaiHe
- * @describe node infor
- */
-public class Node {
-	public int uniqueID = 0;
-	public String nodeId = null;
-	public String odlNodeRef = null;
-	public List<Point> pointsList = new ArrayList<Point>(20);
-	public int flowEntryCount = 0;
 	
-	public Node(int uniqueID,String nodeId ,String odlNodeRef){
-		this.nodeId = nodeId;
-		this.odlNodeRef = odlNodeRef;
-		this.uniqueID = uniqueID;
-	}
-
-	public int getUniqueID() {
-		return uniqueID;
-	}
-
-	public void setUniqueID(int uniqueID) {
-		this.uniqueID = uniqueID;
-	}
-
-	public Node(int uniqueID){
-		this.uniqueID = uniqueID;
-	}
-	public String getNodeId() {
-		return nodeId;
-	}
-
-	public void setNodeId(String nodeId) {
-		this.nodeId = nodeId;
-	}
-
-	public String getOdlNodeRef() {
-		return odlNodeRef;
-	}
-
-	public void setOdlNodeRef(String odlNodeRef) {
-		this.odlNodeRef = odlNodeRef;
-	}
+	private Integer id;
 	
-	public void addPoint(Point point){
-		this.pointsList.add(point);
-	}
+	private String type = "switch";
 	
-	public void addPoint(String tpId, String odlNodeConRef){
-		this.pointsList.add(new Point(tpId,odlNodeConRef));
+	private String datapathId;
+	
+	private String swithchname;
+	
+	private String odlnoderef;
+
+	
+	public Integer getId() {
+		return id;
 	}
 
-	public List<Point> getPointsList() {
-		return pointsList;
+	
+	public void setId(Integer id) {
+		this.id = id;
 	}
 
-	public void setPointsList(List<Point> pointsList) {
-		this.pointsList = pointsList;
-	}
 	
-	public int getDataPathId(){
-		
-		return Integer.parseInt(this.nodeId.substring(this.nodeId.lastIndexOf(':')+1,this.nodeId.length()));
+	public String getType() {
+		return type;
 	}
+
 	
-	public int getFlowEntryCount(){
-		flowEntryCount++;
-		return flowEntryCount;
+	public void setType(String type) {
+		this.type = type;
+	}
+
+	
+	public String getDatapathId() {
+		return datapathId;
+	}
+
+	
+	public void setDatapathId(String datapathId) {
+		this.datapathId = datapathId;
+	}
+
+	
+	public String getSwithchname() {
+		return swithchname;
+	}
+
+	
+	public void setSwithchname(String swithchname) {
+		this.swithchname = swithchname;
+	}
+
+	
+	public String getOdlnoderef() {
+		return odlnoderef;
+	}
+
+	
+	public void setOdlnoderef(String odlnoderef) {
+		this.odlnoderef = odlnoderef;
 	}
 }

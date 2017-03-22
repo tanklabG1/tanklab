@@ -1,54 +1,65 @@
 package main.java.com.tanklab.entity;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class Qos {
-	public String qosId = null;
-	public Queue queue = null;
-	public List<String> QosUUID = new ArrayList<String>();
-	public String qosBand = "500000000";
 
-
-	public String getQosBand() {
-		return qosBand;
-	}
-
-	public void setQosBand(String qosBand) {
-		this.qosBand = qosBand;
-	}
-
-
-	public Qos(String qosId,Queue q){
-		this.qosId = qosId;
-		this.queue = q;
-	}
 	
-	public Qos(){
-		
-	}
+	private Integer id;
 	
-	public String toJson(String queueUuid){
-		StringBuffer sb = new StringBuffer();
-		sb.append("{\"ovsdb:qos-entries\": [{\"qos-other-config\": [{\"other-config-key\": \"max-rate\",\"other-config-value\": \"500000000\"}],\"qos-type\":\"ovsdb:qos-type-linux-htb\",\"qos-id\": \""+qosId+"\",");
-		sb.append("\"queue-list\": [{\"queue-number\": \""+this.queue.queueNumber+"\",\"queue-uuid\":\""+queueUuid+"\"}]}]}");
+	private Integer belongSwId;
+	
+	private Integer qosId;
+	
+	private String qosUuid;
+	
+	private String qosband;
 
-		return sb.toString();
+	
+	public Integer getId() {
+		return id;
 	}
 
-	public String getQosId() {
+	
+	public void setId(Integer id) {
+		this.id = id;
+	}
+
+	
+	public Integer getBelongSwId() {
+		return belongSwId;
+	}
+
+	
+	public void setBelongSwId(Integer belongSwId) {
+		this.belongSwId = belongSwId;
+	}
+
+	
+	public Integer getQosId() {
 		return qosId;
 	}
 
-	public void setQosId(String qosId) {
+	
+	public void setQosId(Integer qosId) {
 		this.qosId = qosId;
 	}
 
-	public Queue getQueue() {
-		return queue;
+	
+	public String getQosUuid() {
+		return qosUuid;
 	}
 
-	public void setQueue(Queue queue) {
-		this.queue = queue;
+	
+	public void setQosUuid(String qosUuid) {
+		this.qosUuid = qosUuid;
+	}
+
+	
+	public String getQosband() {
+		return qosband;
+	}
+
+	
+	public void setQosband(String qosband) {
+		this.qosband = qosband;
 	}
 }

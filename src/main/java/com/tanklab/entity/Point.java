@@ -1,46 +1,115 @@
 package main.java.com.tanklab.entity;
 
-import org.apache.log4j.Logger;
+import java.util.Date;
 
 public class Point {
-	private static Logger logger = Logger.getLogger(Point.class);
-	public String tpId = null;
-	public String odlTopoConRef = null;
+
 	
-	public Point(String tpId ,String odlTopoConRef){
-		this.tpId = tpId;
-		this.odlTopoConRef = odlTopoConRef;
-	}
+	private Integer id;
 	
-	public Point(){
-		
-	}
-
-	public String getTpId() {
-		return tpId;
-	}
-
-	public void setTpId(String tpId) {
-		this.tpId = tpId;
-	}
-
-	public String getOdlTopoConRef() {
-		return odlTopoConRef;
-	}
-
-	public void setOdlTopoConRef(String odlTopoConRef) {
-		this.odlTopoConRef = odlTopoConRef;
-	}
-
-
-	public int getDatapathId(){
-		int i = -1;
-		try{
-			i = Integer.parseInt(this.tpId.substring(this.tpId.lastIndexOf(':')+1,this.tpId.length()));
-		}catch(Exception e){
-			logger.error(e.getMessage());
-		}
-		return i;
-	}
+	private Integer portId;
 	
+	private String portName;
+	
+	private String macAddr;
+	
+	private Integer conSwId;
+	
+	private String state;
+	
+	private Integer maxspeed;
+	
+	private Integer currSpeed;
+	
+	private Date ctime;
+
+	
+	public Integer getId() {
+		return id;
+	}
+
+	
+	public void setId(Integer id) {
+		this.id = id;
+	}
+
+	
+	public Integer getPortId() {
+		return portId;
+	}
+
+	
+	public void setPortId(Integer portId) {
+		this.portId = portId;
+	}
+
+	
+	public String getPortName() {
+		return portName;
+	}
+
+	
+	public void setPortName(String portName) {
+		this.portName = portName;
+	}
+
+	
+	public String getMacAddr() {
+		return macAddr;
+	}
+
+	
+	public void setMacAddr(String macAddr) {
+		this.macAddr = macAddr;
+	}
+
+	
+	public Integer getConSwId() {
+		return conSwId;
+	}
+
+	
+	public void setConSwId(Integer conSwId) {
+		this.conSwId = conSwId;
+	}
+
+	
+	public String getState() {
+		return state;
+	}
+
+	
+	public void setState(String state) {
+		this.state = state;
+	}
+
+	
+	public Integer getMaxspeed() {
+		return maxspeed;
+	}
+
+	
+	public void setMaxspeed(Integer maxspeed) {
+		this.maxspeed = maxspeed;
+	}
+
+	
+	public Integer getCurrSpeed() {
+		return currSpeed;
+	}
+
+	
+	public void setCurrSpeed(Integer currSpeed) {
+		this.currSpeed = currSpeed;
+	}
+
+	
+	public Date getCtime() {
+		return ctime;
+	}
+
+	
+	public void setCtime(Date ctime) {
+		this.ctime = ctime;
+	}
 }

@@ -1,89 +1,101 @@
 package main.java.com.tanklab.entity;
 
-/**
- * 
- * @author CaiHe
- * @describe link information
- */
 public class Link {
-	public String linkID = null;
-	public String srcNodeId = null;
-	public String srcTp = null;
-	public String dstNodeId = null;
-	public String dstTp = null;
-	public int bandwidth = 0;
-	public int latency = 0;
+
 	
-	public Link(String linkId,String srcNodeId,String srcTp,String dstNodeId,String dstTp,int bandwidth,int latency){
-		this.linkID = linkId;
-		this.srcNodeId = srcNodeId;
-		this.srcTp = srcTp;
-		this.dstNodeId = dstNodeId;
-		this.dstTp = dstTp;
-		this.bandwidth = bandwidth;
-		this.latency = latency;
-	}
+	private Integer id;
 	
-	public Link(){
-		
+	private Integer linkId;
+	
+	private Integer srcSwId;
+	
+	private Integer dstSwId;
+	
+	private Integer srcPortId;
+	
+	private Integer dstPortId;
+	
+	private Integer bandwith;
+	
+	private Integer latency;
+
+	
+	public Integer getId() {
+		return id;
 	}
 
-	public String getLinkID() {
-		return linkID;
+	
+	public void setId(Integer id) {
+		this.id = id;
 	}
 
-	public void setLinkID(String linkID) {
-		this.linkID = linkID;
+	
+	public Integer getLinkId() {
+		return linkId;
 	}
 
-	public String getSrcNodeId() {
-		return srcNodeId;
+	
+	public void setLinkId(Integer linkId) {
+		this.linkId = linkId;
 	}
 
-	public void setSrcNodeId(String srcNodeId) {
-		this.srcNodeId = srcNodeId;
+	
+	public Integer getSrcSwId() {
+		return srcSwId;
 	}
 
-	public String getSrcTp() {
-		return srcTp;
+	
+	public void setSrcSwId(Integer srcSwId) {
+		this.srcSwId = srcSwId;
 	}
 
-	public void setSrcTp(String srcTp) {
-		this.srcTp = srcTp;
+	
+	public Integer getDstSwId() {
+		return dstSwId;
 	}
 
-	public String getDstNodeId() {
-		return dstNodeId;
+	
+	public void setDstSwId(Integer dstSwId) {
+		this.dstSwId = dstSwId;
 	}
 
-	public void setDstNodeId(String dstNodeId) {
-		this.dstNodeId = dstNodeId;
+	
+	public Integer getSrcPortId() {
+		return srcPortId;
 	}
 
-	public String getDstTp() {
-		return dstTp;
+	
+	public void setSrcPortId(Integer srcPortId) {
+		this.srcPortId = srcPortId;
 	}
 
-	public void setDstTp(String dstTp) {
-		this.dstTp = dstTp;
+	
+	public Integer getDstPortId() {
+		return dstPortId;
 	}
 
-	public int getBandwidth() {
-		return bandwidth;
+	
+	public void setDstPortId(Integer dstPortId) {
+		this.dstPortId = dstPortId;
 	}
 
-	public void setBandwidth(int bandwidth) {
-		this.bandwidth = bandwidth;
+	
+	public Integer getBandwith() {
+		return bandwith;
 	}
 
-	public int getLatency() {
+	
+	public void setBandwith(Integer bandwith) {
+		this.bandwith = bandwith;
+	}
+
+	
+	public Integer getLatency() {
 		return latency;
 	}
 
-	public void setLatency(int latency) {
+	
+	public void setLatency(Integer latency) {
 		this.latency = latency;
 	}
-	
-	
-	
 }

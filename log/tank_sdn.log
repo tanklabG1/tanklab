@@ -698,4 +698,12 @@ Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@
 Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@60c6f5b]
  [DEBUG][2017/03/22 19:49:56764][org.apache.ibatis.datasource.pooled.PooledDataSource] 
 Returned connection 101478235 to pool.
+ [ERROR][2017/03/23 15:20:49778][main.java.com.tanklab.utils.RestAPIManager] 
+restapi.properties (系统找不到指定的文件。)
+ [ERROR][2017/03/23 15:21:30902][main.java.com.tanklab.utils.RestAPIManager] 
+main\java\com\tanklab\conf\restapi.properties (系统找不到指定的路径。)
+ [INFO ][2017/03/23 16:38:47352][main.java.com.tanklab.utils.TopologyManager] 
+JSONObject["termination-point"] not found.
+ [INFO ][2017/03/23 16:38:47354][main.java.com.tanklab.utils.TopologyManager] 
+Topology load Success!
  

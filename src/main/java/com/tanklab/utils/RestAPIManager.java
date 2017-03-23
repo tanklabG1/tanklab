@@ -7,6 +7,8 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;
 
+import org.apache.log4j.Logger;
+
 /**
  * 
  * @author CaiHe
@@ -14,19 +16,20 @@ import java.util.Properties;
  * @since 2017-2-23
  */
 public class RestAPIManager {
+	private static Logger logger = Logger.getLogger(RestAPIManager.class);
 	private static InputStream in;
 	public static Properties prop = new Properties();
 	public static boolean isLoaded = false;
 	public static void loadProperties(){
 		//read config
 		try {
-			 in = new BufferedInputStream(new FileInputStream("restapi.properties"));
+			 in = new BufferedInputStream(new FileInputStream("src/main/java/com/tanklab/conf/restapi.properties"));
 			prop.load(in);
 			isLoaded = true;
 		} catch (FileNotFoundException e) {
-			Log.error(e.getMessage());
+			logger.error(e.getMessage());
 		} catch (IOException e) {
-			Log.error(e.getMessage());
+			logger.error(e.getMessage());
 		}
 
 	}
@@ -35,7 +38,7 @@ public class RestAPIManager {
 		try {
 			in.close();
 		} catch (IOException e) {
-			Log.error(e.getMessage());
+			logger.error(e.getMessage());
 			
 		}
 	}

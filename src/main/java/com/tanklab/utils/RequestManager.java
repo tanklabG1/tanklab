@@ -11,12 +11,15 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.net.URLConnection;
 
+import org.apache.log4j.Logger;
+
 /**
  * 
  * @author CaiHe
  * @describe to implement http request ,like : GET POST ,DELETE
  */
 public class RequestManager {
+	private static Logger logger = Logger.getLogger(RequestManager.class);
 	public static final String BASIC_AUTH = "Basic YWRtaW46YWRtaW4=" ; 
 	public static String request(String url,String method,String data){
 		if(method.equals("GET")){
@@ -44,15 +47,15 @@ public class RequestManager {
 			conn.setRequestProperty("Content-Type","application/json");
 			conn.setRequestProperty("Authorization","Basic YWRtaW46YWRtaW4=" );
 			if (conn.getResponseCode() != 200){
-				Log.error("request fialed !");
+				logger.error("request fialed !");
 				//return null;
 			}
 			BufferedReader in = new BufferedReader(new InputStreamReader(conn.getInputStream()));
 			return in.readLine();
 		} catch (MalformedURLException e) {
-			Log.error(e.getMessage());
+			logger.error(e.getMessage());
 		} catch (IOException e) {
-			Log.error(e.getMessage());	
+			logger.error(e.getMessage());	
 		}finally{
 			conn.disconnect();
 		}
@@ -91,7 +94,7 @@ public class RequestManager {
 
 	            
 	        } catch (Exception e) {
-	            Log.error(e.getMessage());
+	        	logger.error(e.getMessage());
 	        }
 	        //ʹ��finally�����ر��������������
 	        finally{
@@ -104,7 +107,7 @@ public class RequestManager {
 	                }
 	            }
 	            catch(IOException ex){
-	            	Log.error(ex.getMessage());
+	            	logger.error(ex.getMessage());
 	            }
 	        }
 		
@@ -147,9 +150,9 @@ private static String PUT(String url , String data){
 	        httpURLConnection.disconnect();		
 	        
 	        } catch (UnsupportedEncodingException e) {
-	        	Log.error(e.getMessage());
+	        	logger.error(e.getMessage());
 				} catch (IOException e) {
-					Log.error(e.getMessage());
+					logger.error(e.getMessage());
 				}
 			finally{
 	            try{
@@ -161,7 +164,7 @@ private static String PUT(String url , String data){
 	                }
 	            }
 	            catch(IOException ex){
-	            	Log.error(ex.getMessage());
+	            	logger.error(ex.getMessage());
 	            }
 	        }
 		return null;
@@ -178,15 +181,15 @@ private static String PUT(String url , String data){
 			conn.setRequestProperty("Content-Type","application/json");
 			conn.setRequestProperty("Authorization","Basic YWRtaW46YWRtaW4=" );
 			if (conn.getResponseCode() != 200){
-				Log.error("request fialed !");
+				logger.error("request fialed !");
 				//return null;
 			}
 			BufferedReader in = new BufferedReader(new InputStreamReader(conn.getInputStream()));
 			return in.readLine();
 		} catch (MalformedURLException e) {
-			Log.error(e.getMessage());
+			logger.error(e.getMessage());
 		} catch (IOException e) {
-			Log.error(e.getMessage());	
+			logger.error(e.getMessage());	
 		}finally{
 			conn.disconnect();
 		}
